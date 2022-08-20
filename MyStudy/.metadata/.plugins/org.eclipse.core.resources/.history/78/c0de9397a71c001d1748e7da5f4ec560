@@ -1,0 +1,18 @@
+package ch14;
+
+public class Bus {
+	private int busID;
+	private int earnings;
+	private int numberOfPassengers;
+	
+	public Bus(int busID) {
+		this.busID = busID;
+	}
+	
+	public void earningsBus() {
+		earnings += 1000;
+		numberOfPassengers++;
+	}
+	
+	
+}

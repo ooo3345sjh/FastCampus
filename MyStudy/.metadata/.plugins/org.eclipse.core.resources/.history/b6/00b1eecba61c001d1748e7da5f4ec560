@@ -1,0 +1,23 @@
+package ch14;
+
+public class Subway {
+	private String color;
+	private int earnings;
+	private int numberOfPassengers;
+	
+	public Subway(String color) {
+		this.color = color;
+		this.
+		earnings = 0;
+	}
+	
+	public void earningsBus() {
+		earnings += 1200;
+	}
+	
+	public void earningsBus() {
+		earnings += 1000;
+		numberOfPassengers++;
+	}
+	
+}

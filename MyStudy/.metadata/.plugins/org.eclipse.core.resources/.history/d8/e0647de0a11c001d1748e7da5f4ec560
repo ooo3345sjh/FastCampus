@@ -1,0 +1,11 @@
+package ch14;
+
+public class Bus {
+	int busID;
+	int earnings = 0;
+	
+	public void takeBus() {
+		this.money -= 1000;
+	}
+	
+}

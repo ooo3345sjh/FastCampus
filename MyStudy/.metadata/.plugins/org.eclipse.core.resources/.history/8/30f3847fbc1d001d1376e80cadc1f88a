@@ -1,0 +1,17 @@
+package ch14;
+
+import java.io.*;
+
+public class Test {
+	public static void main(String[] args) throws IOException {
+		InputStreamReader r = new FileInputStreamReader("db.properties");
+		BufferedReader br = new BufferedReader(r);
+			
+		while(true) {
+			String data = br.readLine();
+			if(data == null) break;
+			System.out.println(data);
+		}
+		br.close();
+	}
+}

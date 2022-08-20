@@ -1,0 +1,67 @@
+package ch05;
+
+/*
+ * 날짜 : 2022-08-20
+ * 이름 : 서정현
+ * 내용 : 내가 구현한 ArrayList로 Stack 구현 해보기
+ */
+
+import ch03.*;
+
+public class MyArrayStack {
+	
+	private MyArray array;
+	private int count;
+	
+	public MyArrayStack() {
+		array = new MyArray();
+	}
+	
+	public MyArrayStack(int size) {
+		array = new MyArray(size);
+	}
+	
+	public void push(int num) {
+		count++;
+		array.addElement(num);
+	}
+	
+	public int pop() {
+		int popElement = array.removeElement(0);
+		count--;
+		return popElement;
+	}
+	
+	public int Peek() {
+		int peekElement = array.getElement(0);
+		return peekElement;
+	}
+	
+	public int getSize() {
+		return array.getSize();
+	}
+	
+	public boolean isFull() {
+		if(array.getSize() == count){
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public boolean isEmpty() {
+		if(count == 0){
+			return true;
+		} else {
+			return false;
+		}
+		
+	}
+	
+	public void printAll() {
+		
+	}
+	
+	
+
+}

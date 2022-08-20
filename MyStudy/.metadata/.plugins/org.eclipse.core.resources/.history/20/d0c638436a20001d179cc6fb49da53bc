@@ -1,0 +1,14 @@
+package ch06;
+
+public class MyListQueueTest {
+
+	public static void main(String[] args) {
+		MyListQueue mlq = new MyListQueue();
+		mlq.enQueue("A");
+		mlq.front;
+		mlq.rear;
+		//mlq.printAll();
+	}
+	
+
+}

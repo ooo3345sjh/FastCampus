@@ -1,0 +1,10 @@
+package ch15_1.copy;
+
+public interface Y {
+	
+	void y();
+	
+	default void show() {
+		System.out.println("show y()");
+	}
+}

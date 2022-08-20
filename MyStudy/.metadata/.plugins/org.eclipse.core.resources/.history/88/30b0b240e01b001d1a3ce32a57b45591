@@ -1,0 +1,20 @@
+package ch13;
+
+import java.util.*;
+
+public class ConitionTest {
+
+	public static void main(String[] args) {
+		
+		int max;
+		System.out.println("두 수를 입력 받아서 더 큰 수를 출력하세요\n");
+		
+		Scanner scanner = new Scanner(System.in);
+		max = scanner.nextInt();
+		min = scanner.nextInt();
+		
+		System.out.println(min);
+		
+	}
+}
+

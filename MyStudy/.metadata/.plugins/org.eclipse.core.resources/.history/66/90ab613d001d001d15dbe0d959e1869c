@@ -1,0 +1,39 @@
+package ch19;
+
+import java.util.*;
+
+public class CarFactoryTest {
+
+	public static void main(String[] args) {
+		CarFactory carFactory = CarFactory.getInstance();
+		
+		Car mySonata = carFactory.createCar();
+		Car yourSonata = carFactory.createCar();
+		Car Sonata = carFactory.createCar();
+		
+//		System.out.println(mySonata.getCarNum());
+//		System.out.println(yourSonata.getCarNum());
+		
+		ArrayList<Car> list1 = new ArrayList<>();
+		ArrayList<Car> list2 = new ArrayList<>();
+		
+		list1.add(mySonata);
+		list1.add(yourSonata);
+		list1.add(Sonata);
+		
+		for(int i=0; i<list1.size(); i++) {
+			System.out.println(list1.get(i).getCarNum());
+		}
+		
+		
+		list2.addAll(2,list1);
+		
+		for(int i=0; i<list2.size(); i++) {
+			System.out.println(list2.get(i).getCarNum());
+		}
+		
+		
+		
+	}
+
+}

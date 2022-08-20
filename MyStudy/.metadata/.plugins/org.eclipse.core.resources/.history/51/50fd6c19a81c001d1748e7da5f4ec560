@@ -1,0 +1,25 @@
+package ch14;
+
+
+public class TransportationTest {
+
+	public static void main(String[] args) {
+		Person personJ = new Person("James", 4000);
+		Person personT = new Person("Tomas", 8800);
+		Person personS = new Person("Seo", 10000);
+		
+		Bus bus = new Bus(100);
+		Subway subway = new Subway(2);
+		
+		personJ.remainingMoney();
+		personJ.takeBus(bus);
+		personT.remainingMoney();
+		personT.takeSubway(subway);
+		
+		bus.showInfo();
+		subway.showInfo();
+		
+		
+	}
+
+}

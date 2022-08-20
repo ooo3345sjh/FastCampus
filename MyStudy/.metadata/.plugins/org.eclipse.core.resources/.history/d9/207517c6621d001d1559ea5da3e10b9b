@@ -1,0 +1,33 @@
+package ch06;
+
+import java.util.*;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		
+		Customer customerT = new Customer(10001, "Tomas");
+		Customer customerJ = new Customer(10002, "James");
+		Customer customerE = new Customer(10003, "Edward");
+		Customer customerK = new Customer(10004, "Kim");
+		Customer customerS = new Customer(10005, "Sujan");
+		
+		System.out.println(customerT.showCustomerInfo());
+		System.out.println(customerJ.showCustomerInfo());
+		System.out.println(customerE.showCustomerInfo());
+		System.out.println(customerK.showCustomerInfo());
+		System.out.println(customerS.showCustomerInfo());
+		
+		
+		ArrayList<Customer> list = new ArrayList<>();
+		
+		int price = 10000;
+		for(Customer customer : list) {
+			int cost = customer.calcPrice(price);
+			System.out.println(customer.getCustomerName() + "님이" + cost + "를 지불하셨습니다.");
+		}
+		
+		
+	}
+
+}

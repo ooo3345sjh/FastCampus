@@ -1,0 +1,15 @@
+package ch14;
+
+public class Bus {
+	private int busID;
+	private int earnings;
+	
+	public Bus(int busID) {
+		this.busID = busID;
+	}
+	
+	public void earningsBus() {
+		earnings += 1000;
+	}
+	
+}

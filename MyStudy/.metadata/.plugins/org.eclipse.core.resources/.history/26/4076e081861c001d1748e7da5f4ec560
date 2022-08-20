@@ -1,0 +1,11 @@
+package ch09;
+
+public class Subject {
+	String title;
+	int score;
+	
+	public Subject(String title, int score) {
+		this.title = title;
+		this.score = score;
+	}
+}

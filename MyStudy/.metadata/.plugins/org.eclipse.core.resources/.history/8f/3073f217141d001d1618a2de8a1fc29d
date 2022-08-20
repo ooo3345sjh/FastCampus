@@ -1,0 +1,13 @@
+package ch02;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		Customer customer = new Customer();
+		customer.setCustomerName("이순신");
+		customer.setBonusPoint(1000);
+		customer.setCustomerID(10001);
+		System.out.println(customer.showCustomerInfo());
+	}
+
+}

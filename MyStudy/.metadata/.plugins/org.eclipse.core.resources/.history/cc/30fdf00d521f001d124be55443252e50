@@ -1,0 +1,15 @@
+package ch03;
+
+public class MyarrayTest {
+
+	public static void main(String[] args) {
+		MyArray mArr = new MyArray();
+		mArr.addElement(1);
+		mArr.addElement(2);
+		mArr.addElement(3);
+		mArr.addElement(4);
+		mArr.printAll();
+		
+	}
+
+}

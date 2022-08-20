@@ -1,0 +1,17 @@
+package ch14;
+
+public class Subway {
+	private String color;
+	private int earnings;
+	
+	public Subway(String color) {
+		this.color = color;
+		this.
+		earnings = 0;
+	}
+	
+	public void earningsBus() {
+		earnings += 1200;
+	}
+	
+}

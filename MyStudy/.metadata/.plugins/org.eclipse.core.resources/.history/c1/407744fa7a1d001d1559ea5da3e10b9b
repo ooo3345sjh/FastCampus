@@ -1,0 +1,12 @@
+package ch13.web.userInfo;
+
+import java.io.*;
+
+public class UserInfoClient {
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		FileInputStream fis = new FileInputStream("db.properties");
+		FileReader fr = new FileReader("db.properties");
+		
+	}
+}

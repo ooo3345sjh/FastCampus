@@ -1,0 +1,10 @@
+package ch15;
+
+public class Buy {
+	
+	void buy();
+	
+	defualt void order() {
+		System.out.println("buy ");
+	}
+}

@@ -1,0 +1,6 @@
+package ch24;
+
+public class Subject {
+	private String title;
+	private int score;
+}

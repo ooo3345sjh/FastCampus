@@ -1,0 +1,15 @@
+package ch24;
+
+import java.util.*;
+
+public class Student {
+	private static int sirialNum = 1000;
+	private String name;
+	private int studentID;
+	private ArrayList<Subject> list = new ArrayList<>();
+	
+	public Student(String name) {
+		this.name = name;
+		this.studentID = ++sirialNum;
+	}
+}

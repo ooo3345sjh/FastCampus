@@ -1,0 +1,15 @@
+package ch16;
+
+public class MainBoard {
+	public static void main(String[] args) {
+		Player plyer1 = new Player();
+		plyer1.play(1);
+		
+		Player plyer2 = new Player();
+		plyer2.upgradeLevel(plyer2.getLevel());
+		plyer2.play(1);
+		
+		Player plyer3 = new Player();
+		plyer2.play(1);
+	}
+}

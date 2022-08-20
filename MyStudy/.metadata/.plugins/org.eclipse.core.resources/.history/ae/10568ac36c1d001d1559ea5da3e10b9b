@@ -1,0 +1,20 @@
+package ch09;
+
+public abstract class Desktop {
+
+	
+	public void display() {
+		System.out.println("Desktop display");
+	}
+
+	
+	public void typing() {
+		System.out.println("Desktop typing");
+	}
+	
+	
+	public void turnOff() {
+		System.out.println("Desktop turnOff");
+	}
+
+}

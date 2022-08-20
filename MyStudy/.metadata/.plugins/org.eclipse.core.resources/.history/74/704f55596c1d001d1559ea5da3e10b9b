@@ -1,0 +1,8 @@
+package ch09;
+
+public class MyNoteBook extends Note {
+	@Override
+	public void typing() {
+		System.out.println("MynoteBook typing");
+	}
+}

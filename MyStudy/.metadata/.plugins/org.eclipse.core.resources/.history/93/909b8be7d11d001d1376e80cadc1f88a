@@ -1,0 +1,25 @@
+package ch16;
+
+public class Player {
+	
+	PlayerLevel level;
+	
+	public Player() {
+		level = new BeginnerLevel();
+	}
+	
+	
+	
+	public PlayerLevel getLevel() {
+		return level;
+	}
+	
+	public void upgradeLevel(level) {
+		
+	}
+	
+	public void play(int count) {
+		level.go(count);
+	}
+
+}

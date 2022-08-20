@@ -1,0 +1,13 @@
+package ch02;
+
+public class Order {
+
+	public static void main(String[] args) {
+		int studentNumber;
+		String studentName;
+		int majorCode;
+		String majorName;
+		int grade;
+	}
+
+}

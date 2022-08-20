@@ -1,0 +1,16 @@
+package ch14;
+
+import ch09.*;
+
+public class TransportationTest {
+
+	public static void main(String[] args) {
+		Person personJ = new Person("James", 4000);
+		Person personT = new Person("Tomas", 8800);
+		
+		Bus bus = new Bus(100);
+		Subway subway = new Subway("Green");
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package ch04;
+
+public class StringTest {
+	public static void main(String[] args) {
+		try {
+			Class c = Class.forName("java.lang.String");
+			
+			Constructor[] cons = c.getConstructor();
+			
+			
+		} catch (Exception e) {
+			e.getMessage();
+		}
+		
+	}
+}

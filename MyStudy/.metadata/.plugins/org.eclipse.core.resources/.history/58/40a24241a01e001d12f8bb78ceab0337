@@ -1,0 +1,27 @@
+package ch04;
+
+import java.lang.reflect.*;
+
+public class ClassTest {
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+		Class c1 = Class.forName("ch04.Person");
+		
+		Person person1 = (Person)c1.newInstance();
+		
+		person1.setName("Lee");
+		System.out.println(person1);
+		
+		Class c2 = person1.getClass();
+		Person person2 = (Person)c2.newInstance();
+		System.out.println(person2);
+		
+		Class[] parameterTypes = {String.class}
+		Constructor cons = c2.getConstructor(parameterTypes);
+		
+		Object[] initargs = {"kim"};
+		Person person3 = (Person)cons.newInstance(initargs);
+		
+		
+		
+	}
+}

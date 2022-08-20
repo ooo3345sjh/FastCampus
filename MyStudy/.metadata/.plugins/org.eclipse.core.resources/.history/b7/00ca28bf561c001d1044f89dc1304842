@@ -1,0 +1,13 @@
+package ch02;
+
+public class Order {
+
+	public static void main(String[] args) {
+		int orderID;
+		String buyerID;
+		String sellerID;
+		int productID;
+		String orderDate;
+	}
+
+}

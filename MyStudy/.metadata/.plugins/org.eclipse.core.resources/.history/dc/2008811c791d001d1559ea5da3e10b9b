@@ -1,0 +1,7 @@
+package ch13.domain.userinfo.dao.mysal;
+
+import ch13.domain.userinfo.dao.*;
+
+public class UserInfoMysqlDao implements UserInfoDao {
+
+}

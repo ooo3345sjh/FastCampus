@@ -1,0 +1,38 @@
+package ch24;
+
+import java.util.*;
+
+public class Student {
+	private static int sirialNum = 1000;
+	private String name;
+	private int studentID;
+	private ArrayList<Subject> list;
+	
+	public Student(String name) {
+		this.name = name;
+		this.studentID = ++sirialNum;
+		new ArrayList<>();
+	}
+	public String getName() {
+		return name;
+	}
+	public int getStudentID() {
+		return studentID;
+	}
+	public void addSubject(String title, int score) {
+		Subject subject = new Subject(title, score);
+		list.add(subject);
+	}
+	
+	public int totalScore() {
+		int total = 0;
+		for(Subject s : list) {
+			total += s.getScore();
+		}
+		return total;
+	}
+	
+	public void showInfo() {
+		
+	}
+}

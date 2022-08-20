@@ -1,0 +1,16 @@
+package ch13;
+
+public class ConitionTest {
+
+	public static void main(String[] args) {
+		
+		int max;
+		int min;
+		System.out.println();
+		
+		Scanner scanner = new Scanner(System.in);
+		max
+		
+	}
+}
+

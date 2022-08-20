@@ -1,0 +1,15 @@
+package ch05;
+
+public class MyArrayStackTest {
+	public static void main(String[] args) {
+		MyArrayStack mas = new MyArrayStack(5);
+		mas.push(0);
+		mas.push(1);
+		mas.push(2);
+		mas.push(3);
+		mas.push(4);
+		mas.isFull();
+		mas.printAll();
+	}
+
+}

@@ -1,0 +1,20 @@
+package ch04;
+
+import java.lang.reflect.*;
+
+public class StringTest {
+	public static void main(String[] args) {
+		try {
+			Class c = Class.forName("java.lang.String");
+			
+			Constructor[] cons = c.getConstructor();
+			for(Constructor c : cons) {
+				System.out.println(c);
+			}
+			
+		} catch (Exception e) {
+			e.getMessage();
+		}
+		
+	}
+}

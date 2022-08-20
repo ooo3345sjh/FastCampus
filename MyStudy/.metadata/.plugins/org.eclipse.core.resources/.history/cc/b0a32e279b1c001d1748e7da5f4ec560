@@ -1,0 +1,13 @@
+package ch11;
+
+public class BirthDayTest {
+
+	public static void main(String[] args) {
+		MakeReport date = new MakeReport();
+		date.setYear(2019);
+		date.setMonth(13);
+		date.setDay(20);
+		date.showDate();
+	}
+
+}

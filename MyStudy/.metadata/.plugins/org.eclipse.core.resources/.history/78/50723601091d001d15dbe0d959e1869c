@@ -1,0 +1,6 @@
+package ch24;
+
+public class StudentTest {
+	Student student1 = new Student("Lee");
+	Student student2 = new Student("Kim");
+}
