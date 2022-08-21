@@ -1,0 +1,11 @@
+package ch10;
+
+public class MemberArrayList {
+	
+	ArrayList<> memberArray = new ArrayList<>();
+	
+	public MemberArrayList() {
+		member
+	}
+
+}

@@ -1,0 +1,12 @@
+package ch14;
+
+import java.util.*;
+
+public class MemberHashMap {
+	private HashMap<Integer, Member> hashMap;
+	
+	public MemberHashMap() {
+		hashMap = new HashMap<Integer, Member>();
+	}
+
+}

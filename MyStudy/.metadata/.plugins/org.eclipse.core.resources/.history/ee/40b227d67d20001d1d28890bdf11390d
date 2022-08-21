@@ -1,0 +1,16 @@
+package ch07;
+
+public class ThreedPrinter1 {
+	
+	private Plastic material;
+
+	public Plastic getmaterial() {
+		return material;
+	}
+
+	public void setPlastic(Plastic plastic) {
+		this.material = plastic;
+	}
+	
+
+}

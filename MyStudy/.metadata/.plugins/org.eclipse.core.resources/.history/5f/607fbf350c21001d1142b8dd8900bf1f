@@ -1,0 +1,12 @@
+package ch10;
+
+public class MemberArrayTest {
+	public static void main(String[] args) {
+		MemberArrayList mList = new MemberArrayList();
+		Member memberLee = new Member(1000, "Lee");
+		Member memberKim = new Member(1000, "Kim");
+		Member memberSeo = new Member(1000, "Seo");
+		Member memberJoo = new Member(1000, "Joo");
+		mList.addMember();
+	}
+}

@@ -1,0 +1,23 @@
+1661064588228	Copy package
+1661065593444	Copy compilation units
+1661065715912	Rename type 'MemberArrayTest'
+1661065860857	Rename local variable 'mList'
+1661066010592	Rename type 'MemberHashSet'
+1661066036186	Rename type 'MemberHsahSet'
+1661066527258	Delete element
+1661066533334	Copy compilation unit
+1661066732800	Rename type 'Member'
+1661066800276	Rename type 'Member1'
+1661072318504	Copy compilation units
+1661072785249	Rename type 'MemberHashSet'
+1661072796387	Rename type 'MemberHashSetTest'
+1661081445963	Copy compilation unit
+1661082110913	Copy compilation unit
+1661082121943	Rename type 'MemberHashSetTest'
+1661082226224	Rename local variable 'mSet'
+1661082351439	Copy compilation units
+1661082365460	Rename type 'MemberHashMap2'
+1661082374776	Rename type 'MemberHashMapTest2'
+1661082463935	Rename field 'hashMap'
+1661083015730	Delete element
+1661083971968	Rename type 'Mykey'

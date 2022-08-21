@@ -1,0 +1,24 @@
+package ch07;
+
+public class ThreedPrinterTest {
+	public static void main(String[] args) {
+		
+		Plastic plastic = new Plastic();
+		Powder powder = new Powder();
+		
+		ThreedPrinter1 plasticPrinter = new ThreedPrinter1();
+		plasticPrinter.setMaterial(plastic);
+		System.out.println(plasticPrinter.getMaterial());
+		
+		ThreedPrinter2 powderPrinter = new ThreedPrinter2();
+		powderPrinter.setMaterial(powder);
+		System.out.println(powderPrinter.getMaterial());
+		
+		ThreedPrinter3 printer = new ThreedPrinter3();
+		printer.setMaterial(powder);
+		System.out.println(powderPrinter.getMaterial());
+		
+		
+		
+	}
+}

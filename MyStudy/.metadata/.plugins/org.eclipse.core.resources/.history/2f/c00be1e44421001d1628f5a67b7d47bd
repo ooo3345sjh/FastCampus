@@ -1,0 +1,6 @@
+package ch14;
+
+public class MemberHashMap {
+	private HashMap<Integer, Member> hashMap;
+
+}

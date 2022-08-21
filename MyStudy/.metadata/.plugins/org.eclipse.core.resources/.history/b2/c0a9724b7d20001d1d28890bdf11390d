@@ -1,0 +1,7 @@
+package ch07;
+
+public class ThreedPrinterTest {
+	public static void main(String[] args) {
+		Powder powder = new Powder();
+	}
+}

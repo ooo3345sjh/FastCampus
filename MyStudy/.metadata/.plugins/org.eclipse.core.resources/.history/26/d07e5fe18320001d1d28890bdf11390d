@@ -1,0 +1,26 @@
+package ch08;
+
+/*
+ * 날짜 : 2022-08-20
+ * 이름 : 서정현
+ * 내용 : 제네릭 자료형 정의
+ */
+public class PrinterTest {
+	public static void main(String[] args) {
+		
+		Plastic plastic = new Plastic();
+		Powder powder = new Powder();
+		
+		GenericPrinter<Plastic> genericPrinter1 = new GenericPrinter<>();
+		genericPrinter1.setMaterial(plastic);
+		plastic = genericPrinter1.getMaterial();
+		System.out.println(genericPrinter1.getMaterial());
+		
+		GenericPrinter<Powder> genericPrinter2 = new GenericPrinter<>();
+		genericPrinter2.setMaterial(powder);
+		powder = genericPrinter2.getMaterial();
+		System.out.println(genericPrinter2.getMaterial());
+		
+		
+	}
+}

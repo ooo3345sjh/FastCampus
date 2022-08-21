@@ -1,0 +1,7 @@
+package ch10;
+
+public class MemberArrayTest {
+	public static void main(String[] args) {
+		MemberArrayList mList = new MemberArrayList();
+	}
+}

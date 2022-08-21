@@ -1,0 +1,16 @@
+package ch07;
+
+public class ThreedPrinter2 {
+	
+	private Powder material;
+
+	public Powder getMaterial() {
+		return material;
+	}
+
+	public void setMaterial(Powder plastic) {
+		this.material = plastic;
+	}
+	
+
+}

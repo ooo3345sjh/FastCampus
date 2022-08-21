@@ -1,0 +1,12 @@
+package ch14;
+
+import java.util.*;
+
+public class MyKey implements Comparator<Integer> {
+
+	@Override
+	public int compare(Integer I1, Integer I2) {
+		return (I1.compareTo(I2)) * 1;
+	}
+
+}

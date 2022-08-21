@@ -1,0 +1,45 @@
+package ch13;
+
+/*
+ * 날짜 : 2022-08-21
+ * 이름 : 서정현
+ * 내용 : 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기
+ */
+
+import java.util.*;
+
+public class MemberTreeSet {
+	TreeSet<Member> memberSet;
+		
+	public MemberTreeSet() {
+		memberSet = new TreeSet<>();
+	}
+	
+	public void addMember(Member member) {
+		memberSet.add(member);
+	}
+	
+	public boolean removeMember(Member member) {
+		Iterator<Member> i = memberSet.iterator();
+		
+		while(i.hasNext()) {
+			Member temp = i.next();
+			if(temp.getMemberId() == member.getMemberId()) {
+				memberSet.remove(member);
+				return true;
+			}
+		}
+		
+		System.out.println(member.getMemberId() + "가 존재하지 않습니다.");
+		return false;
+	}
+	
+	public void showAllMember() {
+		for(Member member : memberSet) {
+			System.out.println(member);
+		}
+		System.out.println();
+	}
+
+
+}

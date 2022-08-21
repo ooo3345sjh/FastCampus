@@ -1,0 +1,41 @@
+package ch10;
+
+import java.util.*;
+
+public class MemberArrayList {
+	
+	ArrayList<Member> memberArray;
+	
+	public MemberArrayList() {
+		memberArray = new ArrayList<>();
+	}
+	
+	public MemberArrayList(int size) {
+		memberArray = new ArrayList<>(size);
+	}
+	
+	public void addMember(Member member) {
+		memberArray.add(member);
+	}
+	
+	public boolean removeMember(Member member) {
+		
+		for(int i=0; i<memberArray.size(); i++) {
+			
+			int memberId = memberArray.get(i).getMemberId();
+			if(memberId == member.getMemberId()) {
+				memberArray.remove(i);
+				return true;
+			}
+		}
+		System.out.println(member.getMemberId() + "가 존재하지 않습니다.");
+		return false;
+	}
+	
+	public void showAllMember() {
+		for(Member member : memberArray) {
+			System.out.pirntln(member)
+		}
+	}
+
+}

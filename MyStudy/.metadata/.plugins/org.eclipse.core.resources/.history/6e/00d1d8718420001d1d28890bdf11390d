@@ -1,0 +1,21 @@
+package ch08;
+
+/*
+ * 날짜 : 2022-08-20
+ * 이름 : 서정현
+ * 내용 : 제네릭 자료형 정의
+ */
+public class GenericPrinter<T extends Material> {
+	
+	private T material;
+
+	public T getMaterial() {
+		return material;
+	}
+
+	public void setMaterial(T plastic) {
+		this.material = plastic;
+	}
+	
+
+}

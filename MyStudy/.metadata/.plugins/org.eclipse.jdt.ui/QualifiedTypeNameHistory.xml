@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="sec03.exam01.Week"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="sec05.exam02.Calculator"/>
     <fullyQualifiedTypeName name="sec06.exam02.hyundai.Engine"/>
@@ -59,4 +57,7 @@
     <fullyQualifiedTypeName name="ch05.MyArrayStack"/>
     <fullyQualifiedTypeName name="ch04.MyListNode"/>
     <fullyQualifiedTypeName name="ch06.MyListQueue"/>
+    <fullyQualifiedTypeName name="ch07.Plastic"/>
+    <fullyQualifiedTypeName name="ch07.ThreedPrinter1"/>
+    <fullyQualifiedTypeName name="ch10.MemberArrayList"/>
 </qualifiedTypeNameHistroy>
