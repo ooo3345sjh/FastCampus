@@ -1,5 +1,0 @@
-package ch24;
-
-public class Student {
-	private static int sirialNUm = 1000;
-}

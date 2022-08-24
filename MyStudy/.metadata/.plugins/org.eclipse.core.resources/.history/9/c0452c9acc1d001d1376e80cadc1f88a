@@ -1,8 +1,0 @@
-package ch15_3;
-
-public interface Queue {
-	
-	void enQueue(Stirng title);
-	String deQueue();
-	
-}

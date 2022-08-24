@@ -1,9 +1,0 @@
-package ch14;
-
-public class ReadExample {
-
-	public static void main(String[] args) {
-		Reader reader = new FileReader("C:/Temp/test9.txt");
-	}
-
-}

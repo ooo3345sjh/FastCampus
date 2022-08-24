@@ -1,5 +1,0 @@
-package ch10;
-
-public abstract class Car {
-
-}

@@ -1,6 +1,0 @@
-package ch24;
-
-public class Subject {
-	String title;
-	int score;
-}
