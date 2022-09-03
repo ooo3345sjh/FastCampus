@@ -1,7 +1,0 @@
-package ch09;
-
-public class GenericMethod {
-	
-	public <T,V> double makerectangle(Point<T,V> p1, Point<T,V> p2)
-
-}

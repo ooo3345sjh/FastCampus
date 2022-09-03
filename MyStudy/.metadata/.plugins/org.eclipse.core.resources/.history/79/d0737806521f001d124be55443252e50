@@ -1,9 +1,0 @@
-package ch03;
-
-public class MyarrayTest {
-
-	public static void main(String[] args) {
-		MyArray mArr = new MyArray(10); 
-	}
-
-}

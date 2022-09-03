@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="sec06.exam05.package1.A"/>
-    <fullyQualifiedTypeName name="sec01.exam01.CellPhone"/>
-    <fullyQualifiedTypeName name="sec01.exam04.Airplane"/>
-    <fullyQualifiedTypeName name="sec01.exam04.SupersonicAirplane"/>
     <fullyQualifiedTypeName name="sec01.exam07.pack1.A"/>
     <fullyQualifiedTypeName name="sec02.exam03.HankookTire"/>
     <fullyQualifiedTypeName name="sec01.exam04.RemoteControl"/>
@@ -33,7 +29,6 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.awt.Toolkit"/>
     <fullyQualifiedTypeName name="sec02.test.exam04.MovieThread"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="ch01.AnonumousInnerTest.Student"/>
     <fullyQualifiedTypeName name="ch01.AnonumousInnerTest"/>
     <fullyQualifiedTypeName name="ch01.AnonumousInnerTest.people"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="ch07.TravelCustomer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

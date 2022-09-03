@@ -1,8 +1,0 @@
-package ch07;
-
-public class ThreedPrinter1 {
-	
-	Plastic plastic;
-	
-
-}
