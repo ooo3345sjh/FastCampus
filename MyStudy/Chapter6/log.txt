@@ -4,3 +4,15 @@ WARNING: name must be null
 WARNING: 이름이 너무 길어요
 9월 03, 2022 10:58:28 오후 ch10.MyLogger fine
 FINE: begin getStudentName()
+9월 06, 2022 4:32:45 오후 ch10.MyLogger warning
+WARNING: name must be null
+9월 06, 2022 4:32:45 오후 ch10.MyLogger warning
+WARNING: 이름이 너무 길어요
+9월 06, 2022 4:32:45 오후 ch10.MyLogger fine
+FINE: begin getStudentName()
+9월 06, 2022 4:34:32 오후 ch10.MyLogger warning
+WARNING: name must be null
+9월 06, 2022 4:34:32 오후 ch10.MyLogger warning
+WARNING: 이름이 너무 길어요
+9월 06, 2022 4:34:32 오후 ch10.MyLogger fine
+FINE: begin getStudentName()

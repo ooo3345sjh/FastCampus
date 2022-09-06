@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="sec01.exam07.pack1.A"/>
-    <fullyQualifiedTypeName name="sec02.exam03.HankookTire"/>
-    <fullyQualifiedTypeName name="sec01.exam04.RemoteControl"/>
-    <fullyQualifiedTypeName name="sec01.exam04.Audio"/>
-    <fullyQualifiedTypeName name="sec02.exam02.Taxi"/>
-    <fullyQualifiedTypeName name="sec02.test.exam03.OracleDao"/>
-    <fullyQualifiedTypeName name="sec02.test.exam03.MysqlDao"/>
     <fullyQualifiedTypeName name="sec01.exan01.A.C"/>
     <fullyQualifiedTypeName name="sec01.exan05.Outter.Nested"/>
     <fullyQualifiedTypeName name="sec01.exan06.CallListener"/>
@@ -43,7 +36,6 @@
     <fullyQualifiedTypeName name="ch13.domain.userinfo.dao.UserInfoDao"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="ch16.PlayerLevel"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
     <fullyQualifiedTypeName name="ch05.MyArrayStack"/>
     <fullyQualifiedTypeName name="ch04.MyListNode"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
     <fullyQualifiedTypeName name="ch07.TravelCustomer"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+    <fullyQualifiedTypeName name="ch20.AutoSaveThread"/>
 </qualifiedTypeNameHistroy>
