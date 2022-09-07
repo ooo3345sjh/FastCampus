@@ -1,5 +1,10 @@
 package ch19;
 
+/*
+ * 날짜 : 2022/09/06
+ * 이름 : 서정현
+ * 내용 : 데코레이터 패턴을 활용한 커피 머신 프로그램
+ */
 public class CoffeeTest {
 	
 	public static void main(String[] args) {
