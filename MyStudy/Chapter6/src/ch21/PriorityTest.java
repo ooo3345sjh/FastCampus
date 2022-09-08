@@ -36,23 +36,20 @@ public class PriorityTest {
 	public static void main(String[] args) {
 	
 		int i;
-		for(i = Thread.MIN_PRIORITY; i <= Thread.MAX_PRIORITY; i++) {
-			
-			PriorityThread pt = new PriorityThread();
-			pt.setPriority(i);
-			pt.start();
-		}
+		Thread th1 = new PriorityThread();
+		Thread th2 = new PriorityThread();
+		Thread th3 = new PriorityThread();
 		
+		th1.setName("A");
+		th2.setName("B");
+		th3.setName("C");
+		th1.setPriority(Thread.MIN_PRIORITY);
+		th2.setPriority(Thread.NORM_PRIORITY);
+		th3.setPriority(Thread.MAX_PRIORITY);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		th1.start();
+		th2.start();
+		th3.start();
 		
 	}
 
