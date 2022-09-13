@@ -1,6 +1,5 @@
 package ch23;
 
-import java.nio.file.*;
 import java.util.*;
 
 /*
@@ -15,23 +14,23 @@ import java.util.*;
  *	- 이 경우 유효한 리소스만큼의 Thread만이 수행될 수 있고 자원을 갖지 못한 Thread의 경우는 다시 wait() 상태로 만든다.
  *	- 자바에서는 notifyAll() 메서드의 사용을 권장한다.
  *	- 도서관에서 책을 빌리는 예제
- *	- notify()를 사용하는 경우
+ *	- notifyAll()를 사용하는 경우
  */
-class FastLibrary {
+class FastLibrary2 {
 	
 	public ArrayList<String> shelf = new ArrayList<>(); 
 	
-	public FastLibrary() {
+	public FastLibrary2() {
 		
 		shelf.add("태백산맥 1");
 		shelf.add("태백산맥 2");
 	}
 	
 	public synchronized String lendBook() throws InterruptedException {
-		
+
 		Thread t = Thread.currentThread();
-		
-		if(shelf.isEmpty()) {
+
+		while (shelf.isEmpty()) {
 			System.out.println(t.getName() + " wating start");
 			wait();
 			System.out.println(t.getName() + " wating end");
@@ -40,7 +39,6 @@ class FastLibrary {
 		String book = shelf.remove(0);
 		System.out.println(t.getName() + ": " + book + " lend");
 		return book;
-
 	}
 	
 	public synchronized void returnBook(String book) {
@@ -49,15 +47,15 @@ class FastLibrary {
 		
 		shelf.add(book);
 		
-		notify();
+		notifyAll();
 		
 		System.out.println(t.getName() + ": " + book + " return");
 	}
 }
 
-class Student extends Thread {
+class Student2 extends Thread {
 	
-	public Student(String name) {
+	public Student2(String name) {
 		super(name);
 	}
 	
@@ -65,30 +63,30 @@ class Student extends Thread {
 	public void run() {
 		
 		try {
-			String title = LibraryMain.library.lendBook();
+			String title = LibraryMain2.library.lendBook();
 			if(title == null) {
 				System.out.println(getName() + " : 책을 빌리지 못함");
 				return;
 			}
 			sleep(5000);
-			LibraryMain.library.returnBook(title);
+			LibraryMain2.library.returnBook(title);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	};
 }
 
-public class LibraryMain {
+public class LibraryMain2 {
 	
 	public static FastLibrary library = new FastLibrary();
 	
 	public static void main(String[] args) {
 		
-		Student st1 = new Student("s1");
-		Student st2 = new Student("s2");
-		Student st3 = new Student("s3");
-		Student st4 = new Student("s4");
-		Student st5 = new Student("s5");
+		Student2 st1 = new Student2("s1");
+		Student2 st2 = new Student2("s2");
+		Student2 st3 = new Student2("s3");
+		Student2 st4 = new Student2("s4");
+		Student2 st5 = new Student2("s5");
 		
 		st1.start();
 		st2.start();

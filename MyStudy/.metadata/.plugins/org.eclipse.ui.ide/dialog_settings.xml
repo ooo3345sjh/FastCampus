@@ -39,6 +39,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\ooo33.DESKTOP-56U45AS\Desktop\Workspace\FastCampus\FastCampus\MyStudy"/>
 			<item value="C:\Users\java2\Desktop\Workspace\FastCampus\FastCampus\MyStudy"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
